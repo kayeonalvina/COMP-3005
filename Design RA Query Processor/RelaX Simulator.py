@@ -10,15 +10,26 @@ E3, Bob, 29}"""
 
 def parse(text):
     print(text)
-    print("\n")
-    spaceSplit = re.split('[, \n}{()]', text)
-    print(spaceSplit)
+    print()
+    lineSplit = re.split('\n', text)
+    print(lineSplit)
+
+
+    # spltting first line and filtering out empty strings
+    firstLine = re.split("[(,)={ ]", lineSplit[0])
+    finalfirst = list(filter(None, firstLine))
+
+    dataStruct = {}
+
+    for x in range (1, len(lineSplit)):
+        pass
+
 
     # removing empty strings 
-    finalList = list(filter(None, spaceSplit))
-    print(finalList)
+    # finalList = list(filter(None, lineSplit))
+    # print(finalList)
 
-    name = finalList[0]
+    # name = finalList[0]
 
 
 main()

@@ -66,6 +66,7 @@ def deleteStudent(student_id):
     execute_query(connection, query)
 
 # call connect function
+# database name, username, password, host, post
 connection = create_connection("Students", "postgres", "postgres", "localhost", "5432")
 
 # to run the whole program

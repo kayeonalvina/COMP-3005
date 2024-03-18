@@ -8,8 +8,9 @@ Instructions:
 2. To create new database: right-click Database -> Create -> Database -> Database Name: Students -> save
 3. To initialize: right-click your newly created database -> "Query Tool" -> copy and paste in code from students.sql and run the query
 4. Open code using any IDE
-5. Run Interaction.py
-6. Follow the instruction in the terminal (code written in main()) 
+5. Change line 70 if needed. For example, username and password arguments for your pgadmin
+6. Run Interaction.py
+7. Follow the instruction in the terminal (code written in main()) 
 
 ** For addStudents(), the enrollment date needs to be in this format: #-#-#, else it'll throw an error
 ** The first or the second run might throw an error. If it does, rerun and it'll work.

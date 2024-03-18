@@ -4,7 +4,7 @@ Alvina Han
 Interaction.py - where all code lies
 students.sql - code to create and initialize Students in pgadmin
 
-video: 
+Video: https://youtu.be/JAQZRx0IVM4
 
 Instructions:
 1. Open pgadmin

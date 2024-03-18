@@ -78,16 +78,22 @@ def main():
     4. Delete a student
     5. Exit
     Enter your choice (1-5):"""
+
+    # user's choice
     choice = 0
+
+    # run while user wants to exit
     while choice != 5:
         print(menu)
         choice = input()
+        # convert user's input to int
         choice = int(choice)
 
         # loop until choice is valid
         while choice < 1 or choice > 6:
             print(menu)
             choice = input("Invalid. Please choose a number between 1 and 5 (inclusive): ")
+            # convert user's input to int
             choice = int(choice)
 
         if choice == 1:

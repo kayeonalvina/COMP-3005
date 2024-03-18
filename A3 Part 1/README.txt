@@ -1,6 +1,3 @@
-Alvina Han
-101261651
-
 Interaction.py - where all code lies
 students.sql - code to create and initialize Students in pgadmin
 

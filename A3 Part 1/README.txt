@@ -9,3 +9,4 @@ Instructions:
 2. Follow the instruction in the terminal (code written in main()) 
 
 ** For addStudents(), the enrollment date needs to be in this format: #-#-#, else it'll throw an error
+** The first or the second run might throw an error. If it does, rerun and it'll work.
